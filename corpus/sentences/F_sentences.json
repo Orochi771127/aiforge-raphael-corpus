@@ -1,0 +1,18 @@
+[
+  {
+    "id": "F001",
+    "text": "我感覺有什麼東西從我心裡被拿走了。",
+    "language": "zh",
+    "emotion": "sadness",
+    "tone": "低落",
+    "concepts": ["A001"]
+  },
+  {
+    "id": "F002",
+    "text": "對不起，我不是故意傷害你的。",
+    "language": "zh",
+    "emotion": "guilt",
+    "tone": "懺悔",
+    "concepts": ["A002"]
+  }
+]
