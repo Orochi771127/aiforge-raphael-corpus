@@ -1,0 +1,14 @@
+[
+  {
+    "conceptID": "A001",
+    "emotionHint": "sadness",
+    "sentenceID": "F001",
+    "priority": 1
+  },
+  {
+    "conceptID": "A002",
+    "emotionHint": "guilt",
+    "sentenceID": "F002",
+    "priority": 1
+  }
+]
