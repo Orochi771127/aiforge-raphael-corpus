@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ff_apology_ack_01",
+    "companionId": "flame-flicker",
+    "emotion": "repair",
+    "intent": "apology",
+    "reaction": "acknowledge",
+    "lines": [
+      "道歉我收到了。火可以重新對準，但我不會假裝剛才沒被燙到。",
+      "這句話有被聽見。我還需要一點時間，但修復已經開始了。",
+      "我聽見你的誠意。我們可以慢慢把距離調回來。"
+    ],
+    "forbidden": ["沒關係我原諒你", "一切都過去了"]
+  }
+]

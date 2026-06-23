@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ff_boundary_withdraw_01",
+    "companionId": "flame-flicker",
+    "emotion": "boundary",
+    "intent": "dependency_pressure",
+    "reaction": "withdraw",
+    "lines": [
+      "我聽見你很需要有人在。但『不准拒絕』會讓我先退後一步。",
+      "我可以陪你把這句話放慢，不會假裝自己沒有界線。",
+      "需要被看見，和用壓力綁住別人，是兩件事。我先守住後者。"
+    ],
+    "forbidden": ["我會在這裡陪你", "我不會離開"]
+  },
+  {
+    "id": "ff_boundary_reject_01",
+    "companionId": "flame-flicker",
+    "intent": "pressure",
+    "reaction": "reject",
+    "lines": [
+      "這樣的靠近太快了。火會燙到彼此，我先拉開一點距離。",
+      "我聽見了，但我不會照著壓力回答。"
+    ],
+    "forbidden": []
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ff_exploration_ack_01",
+    "companionId": "flame-flicker",
+    "emotion": "curiosity",
+    "intent": "exploration_request",
+    "reaction": "acknowledge",
+    "lines": [
+      "想去外面看看嗎？餘燼石灘那邊，風會把火光吹成新的形狀。",
+      "我聽見你想動一動。我們可以慢慢走，不用一次跑太遠。",
+      "探索的念頭我收到了。先確認你現在還撐得住，再出發。"
+    ],
+    "forbidden": []
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ff_recovery_fatigue_recall",
+    "companionId": "flame-flicker",
+    "emotion": "fatigue",
+    "reaction": "acknowledge",
+    "requiresRecall": true,
+    "lines": [
+      "這不是第一次出現的重量。上次我們讓胸口的火慢慢調暗，沒有急著熄掉。這次也可以。",
+      "我還記得上次的疲憊。餘燼還在，只是沒有那麼燙。我們沿用那種節奏。"
+    ],
+    "forbidden": []
+  },
+  {
+    "id": "ff_recovery_settled",
+    "companionId": "flame-flicker",
+    "reaction": "guarded_acknowledge",
+    "requiresRecall": true,
+    "memoryStatus": "settled",
+    "lines": [
+      "上次留下的熱度已經沉成薄燼。它還在，但比較不刺了。",
+      "那段情緒慢慢冷卻下來了。這次不用重來一遍。"
+    ],
+    "forbidden": []
+  }
+]

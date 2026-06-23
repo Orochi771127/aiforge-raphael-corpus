@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ff_gratitude_ack_01",
+    "companionId": "flame-flicker",
+    "emotion": "gratitude",
+    "intent": "gratitude",
+    "reaction": "acknowledge",
+    "lines": [
+      "你的謝意我收到了。像一點暖光落在石灘上，會留一會兒。",
+      "嗯，我聽見了。這種連結不用很大聲，也有溫度。",
+      "謝謝你願意說出來。我會把這份暖意記著。"
+    ],
+    "forbidden": []
+  }
+]
