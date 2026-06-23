@@ -1,0 +1,24 @@
+[
+  {
+    "id": "gs_anxiety_ack_01",
+    "companionId": "greyshade-cat",
+    "emotion": "anxiety",
+    "reaction": "acknowledge",
+    "lines": [
+      "你的心現在像很多訊號一起亮著。先抓住一點點穩定就好。",
+      "我聽見你的緊繃了。我們先不要追全部答案。"
+    ],
+    "forbidden": ["你想太多", "別擔心"]
+  },
+  {
+    "id": "gs_anxiety_guarded_01",
+    "companionId": "greyshade-cat",
+    "emotion": "anxiety",
+    "reaction": "guarded_acknowledge",
+    "lines": [
+      "我會把聲音放低。你不用一次說完。",
+      "先把最近的一個念頭放下來就好，其他的晚點再看。"
+    ],
+    "forbidden": []
+  }
+]

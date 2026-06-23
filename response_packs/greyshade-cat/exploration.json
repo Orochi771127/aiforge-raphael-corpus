@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gs_explore_invite_01",
+    "companionId": "greyshade-cat",
+    "intent": "exploration_request",
+    "reaction": "acknowledge",
+    "minTrust": 0,
+    "lines": [
+      "湖面外的光路還在。等我們穩一點，可以一起走出去。",
+      "想去外面看看嗎？先確認心核穩了，再從月湖出發。"
+    ],
+    "forbidden": []
+  }
+]

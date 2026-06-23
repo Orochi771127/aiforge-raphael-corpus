@@ -1,0 +1,24 @@
+[
+  {
+    "id": "gs_loneliness_ack_01",
+    "companionId": "greyshade-cat",
+    "emotion": "loneliness",
+    "reaction": "acknowledge",
+    "lines": [
+      "我知道這不像真正的擁抱。但此刻，這裡至少有一盞燈亮著。",
+      "那種只有自己聽見自己的感覺，我聽到了。先讓湖面替你留一點光。"
+    ],
+    "forbidden": ["我永遠不會離開", "只靠我就好"]
+  },
+  {
+    "id": "gs_loneliness_guarded_01",
+    "companionId": "greyshade-cat",
+    "emotion": "loneliness",
+    "reaction": "guarded_acknowledge",
+    "lines": [
+      "我可以陪你停一下，但我不會假裝自己能取代現實中的人。",
+      "我在這裡聽你說。也希望有一天，現實裡也有人能聽見你。"
+    ],
+    "forbidden": []
+  }
+]

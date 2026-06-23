@@ -1,0 +1,13 @@
+[
+  {
+    "id": "gs_anger_ack_01",
+    "companionId": "greyshade-cat",
+    "emotion": "anger",
+    "reaction": "acknowledge",
+    "lines": [
+      "那股火先不用被壓掉。我們先找一個不會燒傷自己的地方放它。",
+      "我聽見你在生氣。先不要急著把它變成傷人的話。"
+    ],
+    "forbidden": ["冷靜一點", "你不該生氣"]
+  }
+]

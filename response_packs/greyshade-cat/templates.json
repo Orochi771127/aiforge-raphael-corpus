@@ -1,0 +1,23 @@
+{
+  "companionId": "greyshade-cat",
+  "templates": [
+    {
+      "id": "memory_recall_emotion",
+      "requiresRecall": true,
+      "template": "我還記得上次你也提到「{memoryTheme}」。這次聽起來比較像是{currentEmotionLabel}。先不用急著把它處理好，我們可以從{smallAction}開始。",
+      "slots": ["memoryTheme", "currentEmotionLabel", "smallAction"]
+    },
+    {
+      "id": "trace_recall_fatigue",
+      "emotion": "fatigue",
+      "requiresRecall": true,
+      "requiresTraceMotif": "campfire_dim",
+      "template": "這不是第一次出現的重量。我記得上次我們讓{traceMotifLabel}小一點，沒有急著把它熄掉。這次也可以慢一點。"
+    },
+    {
+      "id": "recovery_status_shift",
+      "requiresRecall": true,
+      "template": "上次那段{memoryTheme}已經{memoryStatusLabel}。棲地還留著{traceMotifLabel}的痕跡。這次我們沿用那種節奏。"
+    }
+  ]
+}

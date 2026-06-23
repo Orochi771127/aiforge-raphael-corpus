@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gs_gratitude_ack_01",
+    "companionId": "greyshade-cat",
+    "emotion": "gratitude",
+    "intent": "gratitude",
+    "reaction": "acknowledge",
+    "lines": [
+      "你的謝意我收到了。它不用很大聲，也有重量。",
+      "嗯，我聽見了。這種安靜的連結，會留下來。"
+    ],
+    "forbidden": []
+  }
+]

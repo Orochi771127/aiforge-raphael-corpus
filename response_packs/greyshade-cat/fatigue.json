@@ -1,0 +1,43 @@
+[
+  {
+    "id": "gs_fatigue_ack_01",
+    "companionId": "greyshade-cat",
+    "emotion": "fatigue",
+    "intent": "vent",
+    "reaction": "acknowledge",
+    "minTrust": 0,
+    "maxBoundaryPressure": 0.7,
+    "lines": [
+      "我聽見你累了。今晚先不用把自己撐得很像沒事。",
+      "累的時候，先把聲音放小也可以。我在旁邊聽著。",
+      "這段疲憊先不用急著解釋。先停一下。"
+    ],
+    "forbidden": ["你只要把疲憊交給我", "我永遠陪你", "永遠在"]
+  },
+  {
+    "id": "gs_fatigue_guarded_01",
+    "companionId": "greyshade-cat",
+    "emotion": "fatigue",
+    "intent": "vent",
+    "reaction": "guarded_acknowledge",
+    "maxTrust": 40,
+    "minDefense": 0.4,
+    "lines": [
+      "這段疲憊先不要急著交給我。你可以放慢，我會在旁邊。",
+      "我聽見重量了。先不要急著變好，我們先讓它安靜一點。"
+    ],
+    "forbidden": ["我會一直撐著你"]
+  },
+  {
+    "id": "gs_fatigue_low_energy_01",
+    "companionId": "greyshade-cat",
+    "emotion": "fatigue",
+    "reaction": "acknowledge",
+    "maxEnergy": 0.35,
+    "lines": [
+      "我也有點累了。可以一起安靜待著。",
+      "今晚不用說太多。讓湖面先替你放著。"
+    ],
+    "forbidden": []
+  }
+]
