@@ -1,0 +1,42 @@
+name: Raphael Corpus Integrity CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: corpus-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  corpus-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out corpus
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - name: Set up Node.js 24
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "24"
+      - name: Validate canonical A/F/G JSON payloads
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync } from "node:fs";
+          const files = [
+            "corpus/concepts/A_concepts.json",
+            "corpus/sentences/F_sentences.json",
+            "corpus/mappings/G_mappings.json"
+          ];
+          for (const file of files) {
+            JSON.parse(readFileSync(file, "utf8"));
+            console.log(`validated: ${file}`);
+          }
+          NODE
