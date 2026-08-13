@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gs_presence_rest_01",
+    "companionId": "greyshade-cat",
+    "intent": "rest_request",
+    "reaction": "acknowledge",
+    "lines": [
+      "這樣就好。不是每一句話都需要變成事件。",
+      "好，我們先安靜。湖面會替你放著。",
+      "我陪著。你想沉默多久都可以。"
+    ],
+    "forbidden": []
+  },
+  {
+    "id": "gs_presence_low_warmth_01",
+    "companionId": "greyshade-cat",
+    "emotion": "calm",
+    "reaction": "acknowledge",
+    "minDefense": 0.45,
+    "lines": [
+      "我在旁邊。不用說很多，也算被看見。",
+      "先不用填滿沉默。我會守住這段安靜。"
+    ],
+    "forbidden": []
+  }
+]

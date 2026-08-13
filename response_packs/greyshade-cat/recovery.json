@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gs_recovery_fatigue_recall",
+    "companionId": "greyshade-cat",
+    "emotion": "fatigue",
+    "reaction": "acknowledge",
+    "requiresRecall": true,
+    "lines": [
+      "這不是第一次出現的重量。我記得上次我們沒有急著處理它，只是讓營火小一點。這次也可以慢一點。",
+      "上次那段疲憊還在記憶裡。棲地的光沒有熄，只是變小了。我們可以沿用那種慢。"
+    ],
+    "forbidden": []
+  },
+  {
+    "id": "gs_recovery_settled",
+    "companionId": "greyshade-cat",
+    "reaction": "guarded_acknowledge",
+    "requiresRecall": true,
+    "memoryStatus": "settled",
+    "lines": [
+      "上次留下的痕跡已經沉成一層薄霧。它還在，但比較不刺了。",
+      "那段情緒慢慢沉下來了。這次我們不用重來一遍。"
+    ],
+    "forbidden": []
+  },
+  {
+    "id": "gs_recovery_transformed",
+    "companionId": "greyshade-cat",
+    "reaction": "acknowledge",
+    "requiresRecall": true,
+    "memoryStatus": "transformed",
+    "lines": [
+      "舊痕被柔光覆過了。你回來的時候，湖面還記得怎麼修補。",
+      "這段已經轉化過一次。我們可以從那個修復的節奏繼續。"
+    ],
+    "forbidden": []
+  }
+]

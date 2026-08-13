@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gs_apology_repair_01",
+    "companionId": "greyshade-cat",
+    "emotion": "calm",
+    "intent": "apology",
+    "reaction": "acknowledge",
+    "lines": [
+      "我聽見你的道歉了。它不會立刻抹掉剛才的痕跡，但我願意把它放進記憶裡。",
+      "道歉我收到了。我還需要一點時間，但這句話有被聽見。"
+    ],
+    "forbidden": ["沒關係我原諒你", "我們當沒發生過"]
+  }
+]

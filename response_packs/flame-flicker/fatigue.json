@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ff_fatigue_ack_01",
+    "companionId": "flame-flicker",
+    "emotion": "fatigue",
+    "intent": "vent",
+    "reaction": "acknowledge",
+    "lines": [
+      "我聽見你累了。胸口那顆火先不用撐那麼亮，我陪著你調暗一點。",
+      "累的時候不用硬撐熱度。餘燼也可以安靜地亮著。",
+      "這段疲憊先放下來。我會在旁邊，不催你變好。"
+    ],
+    "forbidden": ["我永遠陪你", "永遠在", "你只要把疲憊交給我"]
+  },
+  {
+    "id": "ff_fatigue_guarded_01",
+    "companionId": "flame-flicker",
+    "emotion": "fatigue",
+    "intent": "vent",
+    "reaction": "guarded_acknowledge",
+    "maxTrust": 40,
+    "minDefense": 0.4,
+    "lines": [
+      "我聽見重量了。先別急著把火燒旺，我們先讓它穩住。",
+      "疲憊可以先不用說完。我會在，但不會逼你立刻振作。"
+    ],
+    "forbidden": ["我會一直撐著你"]
+  }
+]

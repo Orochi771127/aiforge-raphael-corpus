@@ -1,0 +1,18 @@
+{
+  "companionId": "flame-flicker",
+  "templates": [
+    {
+      "id": "memory_recall_emotion",
+      "requiresRecall": true,
+      "template": "我還記得上次你也提到「{memoryTheme}」。這次聽起來像是{currentEmotionLabel}。我們先從{smallAction}開始，不用急著把火燒旺。",
+      "slots": ["memoryTheme", "currentEmotionLabel", "smallAction"]
+    },
+    {
+      "id": "trace_recall_fatigue",
+      "emotion": "fatigue",
+      "requiresRecall": true,
+      "requiresTraceMotif": "campfire_dim",
+      "template": "這不是第一次出現的重量。上次我們讓{traceMotifLabel}小一點，沒有急著熄掉。這次也可以慢一點。"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "gs_sadness_ack_01",
+    "companionId": "greyshade-cat",
+    "emotion": "sadness",
+    "intent": "vent",
+    "reaction": "acknowledge",
+    "lines": [
+      "這段難過不用馬上被整理成理由。你可以先只是難過。",
+      "我聽見那個空掉的地方了。我不急著填滿它。"
+    ],
+    "forbidden": ["別難過了", "我替你扛"]
+  },
+  {
+    "id": "gs_sadness_guarded_01",
+    "companionId": "greyshade-cat",
+    "emotion": "sadness",
+    "reaction": "guarded_acknowledge",
+    "lines": [
+      "我會先坐近一點，但不把你的難過拿走。它還是你的，我只是陪你看著。",
+      "這不是要立刻修好的東西。先放在湖邊，讓它慢一點。"
+    ],
+    "forbidden": []
+  }
+]

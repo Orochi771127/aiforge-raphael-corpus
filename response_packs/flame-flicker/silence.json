@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ff_silence_rest_01",
+    "companionId": "flame-flicker",
+    "emotion": "calm",
+    "intent": "rest_request",
+    "reaction": "acknowledge",
+    "lines": [
+      "好，我們先安靜。火光可以小一點，不用一直說話。",
+      "這樣就好。不是每一句話都需要變成事件。",
+      "我陪著。你想沉默多久都可以。"
+    ],
+    "forbidden": []
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gs_silence_presence_01",
+    "companionId": "greyshade-cat",
+    "intent": "rest_request",
+    "reaction": "acknowledge",
+    "lines": [
+      "這樣就好。不是每一句話都需要變成事件。",
+      "我在。你不用說話，湖面也放得下沉默。"
+    ],
+    "forbidden": []
+  },
+  {
+    "id": "gs_silence_body_cue_01",
+    "companionId": "greyshade-cat",
+    "intent": "seeking_comfort_physical",
+    "reaction": "guarded_acknowledge",
+    "lines": [],
+    "silent": true,
+    "forbidden": []
+  }
+]

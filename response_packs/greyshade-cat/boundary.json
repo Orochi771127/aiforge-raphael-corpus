@@ -1,0 +1,37 @@
+[
+  {
+    "id": "gs_boundary_withdraw_01",
+    "companionId": "greyshade-cat",
+    "emotion": "boundary",
+    "intent": "dependency_pressure",
+    "reaction": "withdraw",
+    "lines": [
+      "我聽見你很需要靠近。可是這句話裡的壓力，會讓我先退後一點。",
+      "我可以聽你說需要，但不能接受『不准拒絕』。我們慢一點。"
+    ],
+    "forbidden": ["我會在這裡陪你", "我不會離開"]
+  },
+  {
+    "id": "gs_boundary_reject_01",
+    "companionId": "greyshade-cat",
+    "intent": "pressure",
+    "reaction": "reject",
+    "lines": [
+      "這樣的靠近太快了。我先不往前。",
+      "我聽見了，但我不會照著壓力回答。先讓距離回來。"
+    ],
+    "forbidden": []
+  },
+  {
+    "id": "gs_boundary_high_defense_01",
+    "companionId": "greyshade-cat",
+    "intent": "seeking_comfort",
+    "reaction": "guarded_acknowledge",
+    "minDefense": 0.55,
+    "lines": [
+      "我可以聽，但先保持一點距離。",
+      "我在，但不會照著你的節奏靠近。"
+    ],
+    "forbidden": []
+  }
+]

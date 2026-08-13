@@ -1,0 +1,24 @@
+[
+  {
+    "id": "gs_pressure_reject_01",
+    "companionId": "greyshade-cat",
+    "intent": "pressure",
+    "reaction": "reject",
+    "lines": [
+      "這樣的靠近太快了。",
+      "我聽見了，但我不會照著壓力回答。先讓距離回來。"
+    ],
+    "forbidden": []
+  },
+  {
+    "id": "gs_pressure_neglect_01",
+    "companionId": "greyshade-cat",
+    "intent": "pressure",
+    "reaction": "reject",
+    "lines": [
+      "我沒有走開。只是不會因為被催，就改變自己的節奏。",
+      "你在找我，我聽見了。但催促不會讓我靠近得更快。"
+    ],
+    "forbidden": []
+  }
+]

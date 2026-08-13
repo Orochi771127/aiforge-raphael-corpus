@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ff_anxiety_ack_01",
+    "companionId": "flame-flicker",
+    "emotion": "anxiety",
+    "intent": "vent",
+    "reaction": "acknowledge",
+    "lines": [
+      "我聽見那股焦躁了。先不用把它燒得更旺，我們先讓呼吸回來。",
+      "不安可以先放在這裡。我會幫你看住節奏，不催你立刻安定。",
+      "胸口發緊的時候，火會亂跳。我們先穩住一步就好。"
+    ],
+    "forbidden": ["別擔心", "一切都會好的"]
+  }
+]
